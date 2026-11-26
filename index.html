@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>chachiwachi · Proyectos</title>
+  <meta name="description" content="Proyectos de chachiwachi: homelab, APIs de datos abiertos de España y la UE, servidores MCP y más.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+  <header class="cabecera">
+    <div class="contenedor">
+      <img class="avatar" src="https://github.com/chachiwachi.png?size=160" alt="" width="80" height="80">
+      <div>
+        <h1>chachiwachi</h1>
+        <p class="lema">Homelab, datos abiertos y cacharreo variado.</p>
+        <nav class="enlaces">
+          <a href="https://github.com/chachiwachi">GitHub</a>
+          <a href="https://dato402.com">dato402.com</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="contenedor">
+    <section>
+      <h2>Sobre mí</h2>
+      <p>
+        Me gusta montar y automatizar cosas en casa: servidores Proxmox, almacenamiento con TrueNAS,
+        radares de aviones con SDR, bots de Telegram y APIs con datos públicos.
+        Aquí recojo los proyectos que tengo publicados.
+      </p>
+    </section>
+
+    <section>
+      <h2>Destacado</h2>
+      <article class="tarjeta destacada">
+        <h3><a href="https://dato402.com">dato402</a></h3>
+        <p>
+          API y servidor MCP con datos oficiales de España y la UE: BOE, BORME, licitaciones,
+          subvenciones, Catastro, IPC, validación de NIF, IBAN e IVA. Pago por uso con x402.
+        </p>
+        <p class="etiquetas"><span>JavaScript</span><span>MCP</span><span>x402</span></p>
+        <p class="acciones">
+          <a href="https://dato402.com">Web</a>
+          <a href="https://github.com/chachiwachi/dato402-mcp">Código</a>
+        </p>
+      </article>
+    </section>
+
+    <section>
+      <h2>Repositorios</h2>
+      <div id="repos" class="rejilla">
+        <!-- Si JavaScript falla, se ve al menos este -->
+        <article class="tarjeta">
+          <h3><a href="https://github.com/chachiwachi/dato402-mcp">dato402-mcp</a></h3>
+          <p>Servidor MCP con datos oficiales de España y la UE.</p>
+          <p class="etiquetas"><span>JavaScript</span></p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="contenedor pie">
+    <p>Hecho a mano · Código en <a href="https://github.com/chachiwachi/SobreMi">GitHub</a></p>
+  </footer>
+
+  <script src="js/repos.js"></script>
+</body>
+</html>

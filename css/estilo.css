@@ -76,7 +76,7 @@ h2 { font-size: 1.15rem; margin: 0 0 16px; }
 .tarjeta h3 { margin: 0 0 6px; font-size: 1.05rem; }
 .tarjeta p { margin: 0 0 10px; color: var(--suave); }
 .tarjeta .etiquetas { margin-top: auto; margin-bottom: 0; }
-.destacada { border-color: var(--acento); }
+.destacada { border-color: var(--acento); margin-bottom: 16px; }
 
 .etiquetas span {
   display: inline-block;
